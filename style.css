@@ -1,27 +1,28 @@
-:root{
-    --cor--fundo: #00BFFF
+:root {
+    --cor-fundo: #959f67;
 }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cor--fundo);
-    transition: back;
+    background-color: var(--cor-fundo);
+    transition: background-color 1s;
 }
+
 input{
     padding: 8px 12px;
     font-size: 24px;
 }
+
 button{
     padding: 8px 12px;
     font-size: 24px;
     cursor: pointer;
-} 
+}
